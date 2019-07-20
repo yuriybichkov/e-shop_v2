@@ -1,0 +1,72 @@
+[
+  {
+    "id": 4,
+    "name": "Октагон Фианит бесцветный",
+    "material type": "Искусственное",
+    "material": "Фианит",
+    "shape": "Октагон",
+    "weight": "15 ct",
+    "price": "330",
+    "image": "/Image/image 4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Овал Фианит синий",
+    "material type": "Искусственное",
+    "material": "Фианит",
+    "shape": "Овал",
+    "weight": "28",
+    "price": "405",
+    "image": "/Image/image 6.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Багет Турмалин",
+    "material type": "Натуральное",
+    "material": "Турмалин",
+    "shape": "Багет",
+    "weight": "17",
+    "price": "3200",
+    "image": "/Image/image 10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Сердце Топаз",
+    "material type": "Натуральное",
+    "material": "Топаз",
+    "shape": "Сердце",
+    "weight": "7",
+    "price": "423",
+    "image": "/Image/image 11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Овал Турмалин синтетический",
+    "material type": "Искусственное",
+    "material": "Стекло ювелирное",
+    "shape": "Овал",
+    "weight": "23",
+    "price": "180",
+    "image": "/Image/image 12.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Октагон Турмалин",
+    "material type": "Натуральное",
+    "material": "Турмалин",
+    "shape": "Октагон",
+    "weight": "24",
+    "price": "960",
+    "image": "/Image/image 15.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Овал Турмалин синтетический",
+    "material type": "Искусственное",
+    "material": "Стекло ювелирное",
+    "shape": "Овал",
+    "weight": "26",
+    "price": "128",
+    "image": "/Image/image 19.jpg"
+  }
+]

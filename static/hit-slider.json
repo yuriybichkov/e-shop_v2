@@ -1,0 +1,82 @@
+[
+  {
+    "id": 3,
+    "name": "Триллион Топаз",
+    "material type": "Натуральное",
+    "material": "Топаз",
+    "shape": "Триллион",
+    "weight": "4 ct",
+    "price": "570",
+    "image": "/Image/image 3.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Овал Фианит синий",
+    "material type": "Искусственное",
+    "material": "Фианит",
+    "shape": "Овал",
+    "weight": "28",
+    "price": "405",
+    "image": "/Image/image 6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Крест фантазийный Раух-топаз",
+    "material type": "Натуральное",
+    "material": "Раух-топаз",
+    "shape": "Фантазийный",
+    "weight": "36",
+    "price": "1023",
+    "image": "/Image/image 8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Круг фантазийный Фианит бесцветный",
+    "material type": "Искусственное",
+    "material": "Фианит",
+    "shape": "Круг",
+    "weight": "31",
+    "price": "465",
+    "image": "/Image/image 9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Багет Турмалин",
+    "material type": "Натуральное",
+    "material": "Турмалин",
+    "shape": "Багет",
+    "weight": "17",
+    "price": "3200",
+    "image": "/Image/image 10.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Круг Аквамарин",
+    "material type": "Натуральное",
+    "material": "Аквамарин",
+    "shape": "Круг",
+    "weight": "11",
+    "price": "3480",
+    "image": "/Image/image 13.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Багет Турмалин двухцветный",
+    "material type": "Натуральное",
+    "material": "Турмалин",
+    "shape": "Багет",
+    "weight": "16",
+    "price": "1328",
+    "image": "/Image/image 16.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Октагон Аквамарин",
+    "material type": "Натуральное",
+    "material": "Аквамарин",
+    "shape": "Октагон",
+    "weight": "49",
+    "price": "2800",
+    "image": "/Image/image 18.jpg"
+  }
+]
