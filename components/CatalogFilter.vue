@@ -1,17 +1,14 @@
 <template>
   <b-form>
-    <div>
-    <div class="mt-3">Тип материала: <strong>{{ selectedMaterial_type}}</strong></div>
+    <b-form-group label="Тип материала:">
     <b-form-select v-model="selectedMaterial_type" :options="material_type"></b-form-select>
-    </div>
-    <div>
-    <div class="mt-3">Материал: <strong>{{ selectedMaterial}}</strong></div>
+    </b-form-group>
+    <b-form-group label="Материал:">
     <b-form-select v-model="selectedMaterial" :options="material"></b-form-select>
-    </div>
-    <div>
-    <div class="mt-3">Форма: <strong>{{ selectedShape}}</strong></div>
+    </b-form-group>
+    <b-form-group label="Форма:">
     <b-form-select v-model="selectedShape" :options="shape"></b-form-select>
-    </div>
+    </b-form-group>
   </b-form>
 </template>
 

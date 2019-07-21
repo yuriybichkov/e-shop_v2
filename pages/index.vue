@@ -24,13 +24,12 @@
 
   export default {
     components: {ProductsSlider, HomeCarousel},
-    async asyncData({ $axios }) {
+    async asyncData({$axios}) {
       let hitProducts = [];
       let newProducts = [];
       try {
         hitProducts = await $axios.$get('/hit-slider.json');
         newProducts = await $axios.$get('/new_products-slider.json');
-
       } catch (e) {
         console.warn(e)
       }

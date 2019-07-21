@@ -3,7 +3,10 @@
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-container>
         <b-navbar-brand>
-          <nuxt-link class="nav-brand" :to="{name: 'home'}">Мастер-класс ЕН</nuxt-link>
+          <nuxt-link class="nav-brand" :to="{name: 'home'}">
+            <img src="/20002.png" class="d-inline-block" alt="М-К ЕН">
+            М-К ЕН
+          </nuxt-link>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -60,10 +63,11 @@
 </template>
 
 <style scoped>
-  .nav-brand{
+  .nav-brand {
     color: rgba(255, 255, 255, 0.5);
   }
-  .nav-brand:hover{
+
+  .nav-brand:hover {
     color: rgba(255, 255, 255, 0.75);
   }
 </style>
