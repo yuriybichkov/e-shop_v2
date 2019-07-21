@@ -44,7 +44,7 @@
 
   .prev::before, .next::before {
     font-size: 40px;
-    color: #007bff;
+    color: #343a40;
   }
 
   .prev {

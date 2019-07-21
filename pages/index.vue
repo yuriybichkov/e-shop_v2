@@ -31,7 +31,6 @@
         hitProducts = await $axios.$get('/hit-slider.json');
         newProducts = await $axios.$get('/new_products-slider.json');
 
-        console.log(hitProducts);
       } catch (e) {
         console.warn(e)
       }

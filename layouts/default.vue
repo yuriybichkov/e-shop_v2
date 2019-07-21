@@ -1,20 +1,34 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="primary">
+    <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-container>
         <b-navbar-brand>
-          <nuxt-link :to="{name: 'home'}">Мастер-класс ЕН</nuxt-link>
+          <nuxt-link class="nav-brand" :to="{name: 'home'}">Мастер-класс ЕН</nuxt-link>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <nuxt-link :to="{name: 'catalog'}">Каталог</nuxt-link>
+            <li class="nav-item">
+              <nuxt-link class="nav-link" :to="{name: 'catalog'}">Каталог</nuxt-link>
+            </li>
+
+            <li class="nav-item">
+              <nuxt-link class="nav-link" :to="{name: 'catalog'}">О нас</nuxt-link>
+            </li>
+
+            <li class="nav-item">
+              <nuxt-link class="nav-link" :to="{name: 'catalog'}">Контакты</nuxt-link>
+            </li>
+
+            <li class="nav-item">
+              <nuxt-link class="nav-link" :to="{name: 'catalog'}">Корзина</nuxt-link>
+            </li>
+
+
             <b-nav-item href="/catalog"></b-nav-item>
-            <b-nav-item href="#">Контакты</b-nav-item>
-            <b-nav-item href="#">О нас</b-nav-item>
-            <b-nav-item href="#">Корзина</b-nav-item>
+
 
           </b-navbar-nav>
 
@@ -45,3 +59,11 @@
 
 </template>
 
+<style scoped>
+  .nav-brand{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .nav-brand:hover{
+    color: rgba(255, 255, 255, 0.75);
+  }
+</style>
